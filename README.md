@@ -27,10 +27,10 @@ Today I learn
 #### 모던 마크업
 
 - `script` 태그에서는 사용할 수 있는 속성이 몇 가지 있음
-`type` 속성 : <script type = ...>
+1. `type` 속성 : <script type = ...>
 - HTML4에서는 vb와 같은 script가 기본인 브라우저가 있었지만, HTML5에서는 JavaScript가 기본이기 때문에 
 속성의 의미가 달라졌다.
-`language` 속성 : <script language = ...>
+2. `language` 속성 : <script language = ...>
 - 스크립트 언어를 나타내는 속성
 - 현재는 JavaScript가 기본 언어이기 때문에 사용할 필요는 없다
 *예시
