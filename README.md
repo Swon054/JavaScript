@@ -14,7 +14,7 @@ Today I learn
 
 <script>
 
-alert('hello world')
+  alert('hello world')
 
 </script>
 
