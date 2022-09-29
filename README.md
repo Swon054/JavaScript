@@ -53,3 +53,20 @@ Today I learn
 <script src = "filePath2.js"></script>
 ...
 ```
+  
+#### 코드 구조
+
+##### 문(Statement)
+- 명령어와 문법 구조의 단위
+- 각 Statement는 가독성을 위해 서로 다른 줄에 쓴다
+  
+##### 세미콜론(semicolon)
+- 각 Statement의 끝을 의미함
+- 줄바꿈 시 `세미콜론 자동 삽입(automatic semicolon insertion)`이 발생한다.
+* 세미콜론 자동 삽입은 불완전한 표현식에는 작동하지 않는다.
+  
+##### 주석(comment)
+- 개발자가 작성한 코드의 의도를 보여주기 위한 것
+- `//`는 한 줄 주석, `/*...*/`은 여러 줄 주석
+- 항상 주석을 다는 습관을 들이는 것이 중요함
+ 
