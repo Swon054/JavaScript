@@ -38,3 +38,18 @@ Today I learn
 <script type = "text/javascript"><!-- 주석>
 //--><script>
 ```
+
+## 2022-09-29
+### Day2
+#### 외부 스크립트
+```
+<script src = "filePath.js"></script>
+```
+- 스크립트의 양이 많을 경우 소분화하여 외부 스크립트를 불러오는 식으로 사용한다
+- HTML 내 스크립트를 사용하는 경우는 간단한 코드일 경우이다
+- 여러 스크립트를 삽입하는 경우 다음과 같이 여러 번 코드를 입력한다
+```
+<script src = "filePath1.js"></script>
+<script src = "filePath2.js"></script>
+...
+```
