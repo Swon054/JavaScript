@@ -79,3 +79,6 @@ Today I learn
 "use strict"
 ```
 `use strict`를 활성화하면 취소시키는 방법은 없다
+##### 브라우즈 콘솔을 사용하는 경우
+- 엄격 모드 활성화 : `use strict`를 친 후, `Shift` + `Enter`을 눌러주고 코드를 작성하면 활성화 된다.
+* `use strict`는 클래스와 모듈을 사용한다면 생략가능
