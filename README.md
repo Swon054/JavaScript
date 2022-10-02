@@ -141,4 +141,31 @@ Today I learn
 - 이 경우 숫자도 조합가능하다!
 ```
   alert("My name is,${name}"); // My name is Sangwon
+  alert("1+2 =, ${1+2}"); // 1+2의 값 출력
 ```
+  
+##### 불린형
+- `true`와 `false`, 두 가지 값만 있는 자료형
+```
+  let fieldChecked1 = true; // fieldChecked1에 true값 할당
+  let fieldChecked2 = false; // fieldChecked2에 false값 할당
+```
+- 비교 결과 저장도 가능하다
+- 논리 연산자에서 많이 쓰인다
+  
+##### 'null'
+-  `null`을 어느 자료형에도 속하지 않는 값
+- JavaScript의 `null`은 존재하지 않는 다는 의미로 쓰인다
+
+
+##### 'undefined'
+- 값이 할당되지 않은 상태를 나타낸다
+- 다음과 같은 경우 `undefined`가 할당된다
+```
+  let age;
+  
+  alert(age); // 'undefined'가 출력
+```
+- 개발자가 명시적으로 할당할 수 있다, but `null`값을 사용하는 것이 권장됨
+
+ 
