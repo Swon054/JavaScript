@@ -168,4 +168,31 @@ Today I learn
 ```
 - 개발자가 명시적으로 할당할 수 있다, but `null`값을 사용하는 것이 권장됨
 
- 
+#### 객체와 심볼
+- `object`형 : 데이터 컬렉션이나 복잡한 개체(entity)를 표현할 수 있다
+- `symbol`형 : 객체의 고유한 식별자를 만들 때 사용한다
+
+##### typeof 연산자
+- 연산자와 함수를 표현하는 문법이 다름
+1. 연산자 : typeof x
+2. 함수 : typeof(x)
+- 사용 예시는 다음과 같다
+```
+typeof undefined // "undefined"
+
+typeof 2 // "number"
+
+typeof 1013231312213n // "bigint"
+
+typeof true // "boolean"
+
+typeof "April" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)
+```
