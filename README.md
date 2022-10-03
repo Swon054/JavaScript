@@ -196,3 +196,28 @@ typeof null // "object"  (2)
 
 typeof alert // "function"  (3)
 ```
+
+## 2022-10-03
+### Day4
+####  alert, prompt, confirm
+##### alert
+- 개발자가 할당한 변수 데이터를 보여주는 모달 창Modal Window)을 보여준다
+- 해당 브라우저 탭은 `확인`버튼을 누르기 전까지는 아무 동작을 할 수 없다
+```
+alert("hello"); // "hello"를 출력
+```
+
+##### prompt
+- `prompt`는 두 개의 인수를 받는다
+```
+test = prompt(title, [default]);
+```
+1. title : 사용자에게 보여주는 메시지
+2. default : default로 설정할 값(여기서 `[...]`는 절대값이 아닌 선택값을 의미함)
+
+##### confirm
+- 개발자가 입력한 메시지와 `예` 또는 `아니요`버튼을 포함한 모달 창을 보여준다
+```
+test = confirm(question); // 이지선다형 질문 모달 창을 출력
+```
+- `예`는 `true`, `아니오`는 `false`값으로 반환된다
