@@ -1,5 +1,5 @@
 # TIL-JavaScript
-Today I learn
+모던 자바스크립트에 대해 배운 것 
 
 ## 2022-09-28
 ### Day1
