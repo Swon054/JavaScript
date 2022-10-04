@@ -201,7 +201,7 @@ typeof alert // "function"  (3)
 ### Day4
 ####  alert, prompt, confirm
 ##### alert
-- 개발자가 할당한 변수 데이터를 보여주는 모달 창Modal Window)을 보여준다
+- 개발자가 할당한 변수 데이터를 보여주는 모달 창(Modal Window)을 보여준다
 - 해당 브라우저 탭은 `확인`버튼을 누르기 전까지는 아무 동작을 할 수 없다
 ```
 alert("hello"); // "hello"를 출력
@@ -222,3 +222,16 @@ test = confirm(question); // 이지선다형 질문 모달 창을 출력
 ```
 - `예`는 `true`, `아니오`는 `false`값으로 반환된다
 
+## 2022-10-04
+### Day5
+#### 형 변환
+- 자료형의 `type`을 변경하는 것이다.
+
+#####문자형으로 변환
+- 문자형의 값이 변환되어야 할 때 사용한다
+- alert메서드는 매개변수를 자동으로 문자형으로 변환시킨다
+- String(value)함수를 호출해서 개발자가 인위적으로 변환가능
+```
+let value = true; // value에 true를 할당
+value = String(value); // 변수 value를 boolean에서 String으로 변환
+alert(typeof value); // value의 변수 타입 출력
