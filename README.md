@@ -227,11 +227,22 @@ test = confirm(question); // 이지선다형 질문 모달 창을 출력
 #### 형 변환
 - 자료형의 `type`을 변경하는 것이다.
 
-#####문자형으로 변환
+##### 문자형으로 변환
 - 문자형의 값이 변환되어야 할 때 사용한다
 - alert메서드는 매개변수를 자동으로 문자형으로 변환시킨다
-- String(value)함수를 호출해서 개발자가 인위적으로 변환가능
+- `String(value)`함수를 호출해서 개발자가 인위적으로 변환가능
 ```
 let value = true; // value에 true를 할당
 value = String(value); // 변수 value를 boolean에서 String으로 변환
 alert(typeof value); // value의 변수 타입 출력
+
+##### 숫자형으로 변환
+- boolean 및 문자형에서 숫자형으로의 변환은 수학 관련 함수와 표현식에서 자동으로 변환된다
+- `Number(value)`함수를 호출해서 개발자가 인위적으로 변환가능
+```
+let str = "123"; // 변수 str에 문자형 123을 할당
+alert(typeof str); // str의 타입 출력
+
+let num = Number(str); // str을 숫자형으로 변환
+alert(typeof num); // 형 변환된 num의 타입을 출력
+```
