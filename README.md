@@ -134,8 +134,8 @@
 ##### 문자형
 - 따옴표(")로 문자형으로 나타내고자 하는 데이터를 묶어주면 문자열로 표현할 수 있다
 ```
-  let name = "Sangwon";// name에 Sangwon이라는 변수 저장
-  alert(name); // Sangwon
+let name = "Sangwon";// name에 Sangwon이라는 변수 저장
+alert(name); // Sangwon
 ```
 - `${...}`을 이용해 다음과 같이 조합도 가능하다
 - 이 경우 숫자도 조합가능하다!
@@ -147,8 +147,8 @@
 ##### 불린형
 - `true`와 `false`, 두 가지 값만 있는 자료형
 ```
-  let fieldChecked1 = true; // fieldChecked1에 true값 할당
-  let fieldChecked2 = false; // fieldChecked2에 false값 할당
+let fieldChecked1 = true; // fieldChecked1에 true값 할당
+let fieldChecked2 = false; // fieldChecked2에 false값 할당
 ```
 - 비교 결과 저장도 가능하다
 - 논리 연산자에서 많이 쓰인다
@@ -162,9 +162,9 @@
 - 값이 할당되지 않은 상태를 나타낸다
 - 다음과 같은 경우 `undefined`가 할당된다
 ```
-  let age;
-  
-  alert(age); // 'undefined'가 출력
+let age;
+
+alert(age); // 'undefined'가 출력
 ```
 - 개발자가 명시적으로 할당할 수 있다, but `null`값을 사용하는 것이 권장됨
 
@@ -221,3 +221,4 @@ test = prompt(title, [default]);
 test = confirm(question); // 이지선다형 질문 모달 창을 출력
 ```
 - `예`는 `true`, `아니오`는 `false`값으로 반환된다
+
