@@ -235,6 +235,7 @@ test = confirm(question); // 이지선다형 질문 모달 창을 출력
 let value = true; // value에 true를 할당
 value = String(value); // 변수 value를 boolean에서 String으로 변환
 alert(typeof value); // value의 변수 타입 출력
+```
 
 ##### 숫자형으로 변환
 - boolean 및 문자형에서 숫자형으로의 변환은 수학 관련 함수와 표현식에서 자동으로 변환된다
