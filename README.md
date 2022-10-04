@@ -247,3 +247,15 @@ alert(typeof str); // str의 타입 출력
 let num = Number(str); // str을 숫자형으로 변환
 alert(typeof num); // 형 변환된 num의 타입을 출력
 ```
+
+##### 불린형으로 변환
+- 불린형은 `true`와 `false`로 변환된다
+- '비어있는' 느낌의 값(`0`, `null`, `undefined`, `NaN`)은 `false`가 된다
+- 그 외의 값은 `true`로 변환된다.
+```
+alert(Boolean(1)); // 숫자 1을 불린형으로 변환
+alert(Boolean(0)); // 숫자 0을 불린형으로 변환
+
+alert(Boolean("This is String:)); //문자열을 불린형으로 변환
+alert(Boolean("")); //빈 문자열을 불린형으로 변환
+```
