@@ -282,3 +282,22 @@ alert(Boolean("")); //빈 문자열을 불린형으로 변환
 #### 거듭제곱 연산자(exponentiation operator)
 - 거듭제곱 연산자 `**` : `**`를 기준으로 왼쪽 피연산자를 오른쪽 연산자만큼 반복해서 곱한 값을 반환
 
+#### 단항 연산자 +
+- 덧셈 연산자 `+`는 단항 연산자로 사용 가능하다
+```
+alert( +true ); // true를 숫자형 1로 변환
+alert( +""); // ""는 false에 해당하므로 0으로 변환
+```
+- Number(value)의 역할을 할 수 있다
+```
+let myRank = "1"; // myRank에 "1"을 할당
+let yourRank = "2"; // yourRank에 "2"를 할당
+
+alert( typeof myRank ); // myRank의 자료형 str
+alert( typeof yourRank ); // yourRank의 자료형 str
+
+alert( +myRank + +yourRank ); // myRank와 yourRank를 숫자형으로 변환한 후 더함
+```
+- 연산자 우선순위에 의해 이루어졌다
+
+
