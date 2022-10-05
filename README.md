@@ -300,4 +300,29 @@ alert( +myRank + +yourRank ); // myRank와 yourRank를 숫자형으로 변환한
 ```
 - 연산자 우선순위에 의해 이루어졌다
 
+##### 연산자 우선순위
+- 수학적 규칙과 JavaScript의 다양한 기능을 효과적으로 사용할 수 있도록 하기 위해서 만듦
+- [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)에 table항목에 JavaScript의 상세한 우선순위 테이블을 참고할 수있다
 
+##### 할당 연산자
+할당(assignment) 연산자 `=` : 무언가 할당할 때 쓰이는 연산자
+1. 값을 반환하는 할당 연산자
+- 표현식 안에 또 다른 표현식에서 할당된 값을 반환하여 바깥 표현식에 영향을 준다
+- 가독성이 떨어지고 코드가 명확해지지 않는다
+
+2. 할당 연산자 체이닝(chaining)
+- 할당 연산자는 여러 개를 연결해서 사용할 수 있다.
+```
+let a,b,c;
+a = b = c = 1; // a,b,c에 각각 1을 할당
+```
+- 가독성을 위해 웬만하면 나누는 것이 낫다
+
+##### 복합 할당 연산자
+- 같은 변수에 연산 결과를 저장해야 할 때 사용한다
+```
+let n = 2;
+n += 5; // n = n + 5
+n *= 2; // n = n * 2
+```
+- 비트 연산자에도 적용 가능하다!
