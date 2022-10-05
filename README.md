@@ -345,7 +345,7 @@ n *= 2; // n = n * 2
 - 위 두 연산자는 전위형(prefix form)이나 후위형(postfix form)로 쓸 수 있다
 *참고 : 반환값을 사용하는 경우, 후위형은 기존 값을 반환한다
 
-##### 비트 연산자
+##### 비트 연산자(bitwise operator)
 <table>
   <td>
   
@@ -368,5 +368,11 @@ n *= 2; // n = n * 2
   
 - 2진 표현에서 숫자를 다뤄야 할 때 쓰인다
 - 암호를 다룬다면 비트 연산자가 유용하다
+- [참고용 링크](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+
+##### 쉼표 연산자(comma operator)
+- 쉼표 연산자(comma operator) `,` : 여러 표현식을 코드 한 줄에 쓰기 위한 용도
+- 쉼표의 우선순위는 매우 낮다!
+
 </body>
 </html>
