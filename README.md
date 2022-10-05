@@ -1,5 +1,5 @@
-# TIL-JavaScript
-모던 자바스크립트에 대해 배운 것 
+# JavaScript
+[모던 JavaScript 튜토리얼](https://ko.javascript.info/)에서 모던 자바스크립트에 대해 배운 것을 제 기준으로 해석 및 기록.
 
 ## 2022-09-28
 ### Day1
