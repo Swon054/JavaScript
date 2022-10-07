@@ -5,12 +5,13 @@
 바로가기
 ------------
 1. [Hello, World!](#day1)
-2. [Statement](#statement)
-3. [Strict mode](#strict-mode)
-4. [Variable and Constant](#variable-and-constant)
-5. [Data type](#data-type)
-6. [alert, prompt, confirm](#day4)
-7. [Operator](#operator)
+2. [External script](#external-script)
+3. [Statement](#statement)
+4. [Strict mode](#strict-mode)
+5. [Variable and Constant](#variable-and-constant)
+6. [Data type](#data-type)
+7. [alert, prompt, confirm](#day4)
+8. [Operator](#operator)
 ## 2022-09-28
 ### Day1
 Hello, World!
@@ -53,6 +54,7 @@ Hello, World!
 
 ## 2022-09-29
 ### Day2
+## External script
 #### 외부 스크립트
 ```
 <script src = "filePath.js"></script>
