@@ -1,10 +1,21 @@
 # JavaScript
 [모던 JavaScript 튜토리얼](https://ko.javascript.info/)에서 모던 자바스크립트에 대해 배운 것을 제 기준으로 해석 및 기록.
-<body>
+
+
+바로가기
+------------
+1. [Hello, World!](#day1)
+2. [Statement](#day2)
+3. [strict mode](#day3)
+4. [Variable and Constant](#day4)
+5. [Data type](#day5)
+6. [alert, promptm confirm](#day6)
 
 ## 2022-09-28
 ### Day1
+
 #### `script` 태그
+
 - 대부분 html 위치에 script태그를 사용할 수 있다. 
 - 자바 스크립트 프로그램 삽입 용도로 사용한다.
 ```
@@ -25,8 +36,8 @@
 ```
 * `alert`는 `print` 용도로 사용한다.
 
-#### 모던 마크업
-
+ 모던 마크업
+----------
 - `script` 태그에서는 사용할 수 있는 속성이 몇 가지 있음
 1. `type` 속성 : <script type = ...>
 - HTML4에서는 vb와 같은 script가 기본인 브라우저가 있었지만, HTML5에서는 JavaScript가 기본이기 때문에 
@@ -261,7 +272,7 @@ alert(Boolean("This is String:)); //문자열을 불린형으로 변환
 alert(Boolean("")); //빈 문자열을 불린형으로 변환
 ```
 ## 2022-10-05
-### Day5
+### Day6
 #### 기본 연산자와 수학
 - 몇 가지 조건문 및 반복문을 다루기 위한 연산자 중 기본 연산자들을 다루는 법
 ##### ‘단항’, ‘이항’, ‘피연산자’
@@ -374,5 +385,3 @@ n *= 2; // n = n * 2
 - 쉼표 연산자(comma operator) `,` : 여러 표현식을 코드 한 줄에 쓰기 위한 용도
 - 쉼표의 우선순위는 매우 낮다!
 
-</body>
-</html>
