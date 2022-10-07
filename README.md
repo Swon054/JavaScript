@@ -5,15 +5,16 @@
 바로가기
 ------------
 1. [Hello, World!](#day1)
-2. [Statement](#day2)
-3. [strict mode](#day3)
-4. [Variable and Constant](#day4)
-5. [Data type](#day5)
-6. [alert, promptm confirm](#day6)
-
+2. [Statement](#statement)
+3. [Strict mode](#strict-mode)
+4. [Variable and Constant](#variable-and-constant)
+5. [Data type](#data-type)
+6. [alert, prompt, confirm](#day4)
+7. [Operator](#operator)
 ## 2022-09-28
 ### Day1
-
+Hello, World!
+------------
 #### `script` 태그
 
 - 대부분 html 위치에 script태그를 사용할 수 있다. 
@@ -36,8 +37,7 @@
 ```
 * `alert`는 `print` 용도로 사용한다.
 
- 모던 마크업
-----------
+#### 모던 마크업
 - `script` 태그에서는 사용할 수 있는 속성이 몇 가지 있음
 1. `type` 속성 : <script type = ...>
 - HTML4에서는 vb와 같은 script가 기본인 브라우저가 있었지만, HTML5에서는 JavaScript가 기본이기 때문에 
@@ -65,9 +65,8 @@
 <script src = "filePath2.js"></script>
 ...
 ```
-  
+## Statement 
 #### 코드 구조
-
 ##### 문(Statement)
 - 명령어와 문법 구조의 단위
 - 각 Statement는 가독성을 위해 서로 다른 줄에 쓴다
@@ -84,6 +83,7 @@
 
 ## 2022-09-30
 ### Day3
+## Strict mode
 #### use strict
 - 스크립트 전체를 모던화 시켜주는 명령어
 - 최상단에 위치시키면 코드 전체를 use strict모드로 활성화시켜준다
@@ -95,6 +95,7 @@
 - 엄격 모드 활성화 : `use strict`를 친 후, `Shift` + `Enter`을 눌러주고 코드를 작성하면 활성화 된다.
 * `use strict`는 클래스와 모듈을 사용한다면 생략가능
 
+## Variable and Constant  
 #### 변수와 상수  
 ##### 변수
 - JavaScript에서는 변수를 `let`함수를 이용해서 선언한다.
@@ -129,6 +130,7 @@
 
 ## 2022-10-02
 ### Day3
+## Data type
 #### 자료형
 - JavaScript에는 8가지 기본 자료형이 있다
 - 데이터의 타입에 맞게 자료형을 설정해줘야 한다
@@ -211,7 +213,7 @@ typeof alert // "function"  (3)
 
 ## 2022-10-03
 ### Day4
-####  alert, prompt, confirm
+## alert, prompt, confirm
 ##### alert
 - 개발자가 할당한 변수 데이터를 보여주는 모달 창(Modal Window)을 보여준다
 - 해당 브라우저 탭은 `확인`버튼을 누르기 전까지는 아무 동작을 할 수 없다
@@ -273,6 +275,7 @@ alert(Boolean("")); //빈 문자열을 불린형으로 변환
 ```
 ## 2022-10-05
 ### Day6
+## Operator
 #### 기본 연산자와 수학
 - 몇 가지 조건문 및 반복문을 다루기 위한 연산자 중 기본 연산자들을 다루는 법
 ##### ‘단항’, ‘이항’, ‘피연산자’
