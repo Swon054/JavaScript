@@ -403,7 +403,37 @@ n *= 2; // n = n * 2
 - 일치 연산자 `===` : 0과 false를 구분하지 못하는 동등 연산자(equality operator) `==`과 달리 형 자동변환이 이루어 지지 않는다.
 - `!==`는 `!=`의 일치 연산자 버전이다
 * 참고
-- null과 undefined는 동등 비교(==) 시 서로 같지만 다른 값과는 같지 않다
-- null이나 undefined가 될 확률이 있는 변수가 > 또는 <의 피연산자로 올 때는 주의한다
+- null과 undefined는 동등 비교(`==`) 시 서로 같지만 다른 값과는 같지 않다
+- null이나 undefined가 될 확률이 있는 변수가 `>` 또는 `<`의 피연산자로 올 때는 주의한다
                                          
 ## if
+* 편의를 위해 {...}를 항상 붙이다는 전제하에 설명합니다
+                                             
+#### 'if'문
+- `if(...)의 조건값이 `true`인 경우, {...}의 코드 블록이 실행된다
+- 자동 형 변환이 적용되므로, 불린형인 `true`, `false`으로 변환된다
+
+#### 'else'절
+- 조건값이 `false`인 경우 {...}의 코드 블록이 실행된다
+#### 'else if'절
+- 조건을 여러 개 처리하는 경우 `else if`를 사용한다
+#### 조건부 연산자 '?'
+- 상황에 맞게 사용한다면, 'if'문을 간결하게 만들 수 있는 연산자
+- 사용 예시는 다음과 같다
+```
+let accessAllowed;
+/* if을 사용할 경우                                          
+let name = prompt("이름을 입력하세요.", ''); // 사용자에게 input을 받는다                                           
+if (firstName == "Hong"){ // input값이 '참'일 경우
+  accessAllowed = true;
+}
+else{
+  accessAllowed = false; // input값이 '거짓'일 경우
+}
+
+alert(accessAllowed); // accessAllowed의 값 출력
+*/
+// '?' 연산자를 사용할 경우 
+accessAllowed = (name = "Hong") ? true : false; // let result = condition ? value1 : value2;  
+```
+- 가독성을 우선시하여, 'if'와 '?'연산자를 적절히 활용하는 것이 중요하다                                             
