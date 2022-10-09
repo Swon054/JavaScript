@@ -12,6 +12,7 @@
 6. [Data type](#data-type)
 7. [alert, prompt, confirm](#day4)
 8. [Operator](#operator)
+9. [If](#if)
 ## 2022-09-28
 ### Day1
 Hello, World!
@@ -145,7 +146,7 @@ Hello, World!
 * BigInt
 - 숫자형과 달리 길이와 상관없이 정수를 표현할 수 있게 하는 자료형
 - 숫자 뒤에 `n`을 붙여서 만들 수 있다.
-*참고 : Firefox, Chrome, Edge, Safari같은 브라우저에서는 지원하나, IE에서는 지원하지 않음 (2022-08-13기준)
+* 참고 : Firefox, Chrome, Edge, Safari같은 브라우저에서는 지원하나, IE에서는 지원하지 않음 (2022-08-13기준)
   
 ##### 문자형
 - 따옴표(")로 문자형으로 나타내고자 하는 데이터를 묶어주면 문자열로 표현할 수 있다
@@ -329,7 +330,7 @@ alert( +myRank + +yourRank ); // myRank와 yourRank를 숫자형으로 변환한
 
 ##### 연산자 우선순위
 - 수학적 규칙과 JavaScript의 다양한 기능을 효과적으로 사용할 수 있도록 하기 위해서 만듦
-- [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)에 table항목에 JavaScript의 상세한 우선순위 테이블을 참고할 수있다
+- [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)에 table항목에 JavaScript의 상세한 우선순위 테이블을 참고할 수 있다
 
 ##### 할당 연산자
 할당(assignment) 연산자 `=` : 무언가 할당할 때 쓰이는 연산자
@@ -359,7 +360,7 @@ n *= 2; // n = n * 2
 - 증가(increment) 연산자 `++` : 변수를 1 증가시킵니다
 - 감소(decrement) 연산자 `--`는 변수를 1 감소시킵니다
 - 위 두 연산자는 전위형(prefix form)이나 후위형(postfix form)로 쓸 수 있다
-*참고 : 반환값을 사용하는 경우, 후위형은 기존 값을 반환한다
+* 참고 : 반환값을 사용하는 경우, 후위형은 기존 값을 반환한다
 
 ##### 비트 연산자(bitwise operator)
 <table>
@@ -401,7 +402,8 @@ n *= 2; // n = n * 2
 ##### 일치 연산자(strict equality operator)
 - 일치 연산자 `===` : 0과 false를 구분하지 못하는 동등 연산자(equality operator) `==`과 달리 형 자동변환이 이루어 지지 않는다.
 - `!==`는 `!=`의 일치 연산자 버전이다
-*참고
+* 참고
 - null과 undefined는 동등 비교(==) 시 서로 같지만 다른 값과는 같지 않다
 - null이나 undefined가 될 확률이 있는 변수가 > 또는 <의 피연산자로 올 때는 주의한다
-
+                                         
+## if
