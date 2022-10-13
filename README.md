@@ -446,3 +446,8 @@ accessAllowed = (name = "Hong") ? true : false; // let result = condition ? valu
 - `||` : 양쪽에 인수를 받아 하나라도 `true`이면 `true`를 반환한다
 - 피연산자가 둘다 `false`인 경우를 제외하고 연산 결과는 항상 `true`를 반환한다
 - `if`문과 함께 쓰는 경우가 대부분이다
+
+#### && (AND)
+- `&&` 는 `||` 와 달리 양쪽에 받은 인수가 둘다 `true`인 경우에만 `true`를 반환한다
+- `&&`의 `||` 중에서는 `&&`의 우선순위가 더 높다
+                                    
