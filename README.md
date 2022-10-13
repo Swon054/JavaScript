@@ -13,6 +13,8 @@
 7. [alert, prompt, confirm](#day4)
 8. [Operator](#operator)
 9. [If](#if)
+10. [logical operator](#logical-operator)
+
 ## 2022-09-28
 ### Day1
 Hello, World!
@@ -437,3 +439,10 @@ alert(accessAllowed); // accessAllowed의 값 출력
 accessAllowed = (name = "Hong") ? true : false; // let result = condition ? value1 : value2;  
 ```
 - 가독성을 우선시하여, 'if'와 '?'연산자를 적절히 활용하는 것이 중요하다                                             
+## 2022-10-13
+### Day8
+## Logical Operator
+#### || (OR)
+- `||` : 양쪽에 인수를 받아 하나라도 `true`이면 `true`를 반환한다
+- 피연산자가 둘다 `false`인 경우를 제외하고 연산 결과는 항상 `true`를 반환한다
+- `if`문과 함께 쓰는 경우가 대부분이다
