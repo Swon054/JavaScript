@@ -13,7 +13,7 @@
 7. [alert, prompt, confirm](#day4)
 8. [Operator](#operator)
 9. [If](#if)
-10. [logical operator](#logical-operator)
+10. [Logical Operator](#logical-operator)
 
 ## 2022-09-28
 ### Day1
